@@ -14,7 +14,7 @@ public class Day03Test {
         final var input = InputUtils.readInputFile(Path.of("day03/example-input-part1.txt"));
         final var resultPart1 = Day03.solvePart1(input);
 
-        assertEquals("", resultPart1);
+        assertEquals("357", resultPart1);
     }
 
     @Test
@@ -22,6 +22,6 @@ public class Day03Test {
         final var input = InputUtils.readInputFile(Path.of("day03/example-input-part2.txt"));
         final var resultPart2 = Day03.solvePart2(input);
 
-        assertEquals("", resultPart2);
+        assertEquals("3121910778619", resultPart2);
     }
 }
